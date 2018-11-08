@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica';
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #232b2b;
+}
+
+.jumbotron {
+  background: white;
+  padding: 2em;
+  text-align: center;
+  border-bottom: 1px lightcoral solid;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-transform: uppercase;  
+  color: #232b2b;
+}
+
+.subtitle {
+  color: pink;
+}
+
+.body {
+  text-align: center;
+  padding: 4em;
+  line-height: 2.5;
+  border: 1px lightgray solid;
+  width: 15em;
+  margin: 0 auto;
+  background: white;
+}
+
+.enter {
+  outline: none;
+  border: 1px lightcoral solid;
+  font-size: 1.5em;
+  background-color: white;
+  padding: .5em;
+  margin-top: 4em;
+  border-radius: 10%;
+  cursor: pointer;
+  box-shadow: .2em .2em whitesmoke;
+  text-decoration: none;
+  color: #232b2b;
+}
+
+.footer {
+  height: 1em;
+  border-top: 1px lightcoral solid;
+  padding: 3em;
+  background: white;
+}
+
+.content {
+  min-height: 100%;
+  margin-bottom: -114px;
+}
+
+.form {
+  display: flex;
+}
+
+.input-group {
+  flex: 5;
+}
+
+.label {
+  text-align: right;
+  padding: .3em;
+}
+
+#sign-up {
+  flex: 1;
+  outline: none;
+  border: 1px lightcoral solid;
+  background-color: white;
+  border-radius: 10%;
+  cursor: pointer;
+  box-shadow: .2em .2em whitesmoke;
+}
+
+.age-select {
+  font-size: 4em;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pop-up {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  width: 40%;
+  top: 15em;
+  left: 0;
+  right: 0; 
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px lightcoral solid;
+  border-radius: 10%;
+}
+
+.pop-up h3 {
+  color: pink;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
