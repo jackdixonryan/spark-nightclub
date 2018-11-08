@@ -27,6 +27,8 @@ $msg = wordwrap($msg, 70);
 if ($name && $email != "Invalid email format.") {
   //  mail($email, "Welcome to the Night!", $msg);
 
+  setcookie("user", $email, time() + (86400 * 30), "/");
+  
   $add_user = "INSERT INTO newsletter_subscribers (name, email) VALUES ('$name', '$email')";
 
   if ($conn -> query($add_user) === TRUE) {
@@ -40,6 +42,8 @@ if ($name && $email != "Invalid email format.") {
       </div>
     ";
   }
+
+
 
   $conn->close();
 

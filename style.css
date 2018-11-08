@@ -15,7 +15,6 @@ body, html {
   padding: 2em;
   text-align: center;
   border-bottom: 1px lightcoral solid;
-  margin-bottom: 20px;
 }
 
 .title {
@@ -35,6 +34,7 @@ body, html {
   width: 15em;
   margin: 0 auto;
   background: white;
+  margin-top: 40px;
 }
 
 .enter {
@@ -116,4 +116,9 @@ body, html {
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.img {
+  padding: 10em;
+  background-image: url("/denver-night.jpg");
+  background-repeat: no-repeat;
 }
